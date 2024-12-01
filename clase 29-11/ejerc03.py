@@ -1,18 +1,20 @@
 import math
 
-def perimetro_rectangulo(Lado, ancho):
-    return 4 * Lado * ancho
+# Función para calcular el perímetro de un rectángulo
+def perimetro_rectangulo(lado, ancho):
+    return (lado + ancho)* 2
 
-def area_rectangulo(Lado, ancho):
-    return Lado * ancho
+# Función para calcular el área de un rectángulo
+def area_rectangulo(lado, ancho):
+    return lado * ancho
+
 def main():
-    Lado = float(input("Lado del rectangulo:"))
-    ancho = float(input("Ancho del rectangulo: "))
-    perimetro = perimetro_rectangulo(Lado, ancho)
-    area = area_rectangulo(Lado,ancho)
-    print(f"El perimetro del rectangulo es {perimetro:.2f}")
-    print(f"El area de un rectangulo es {area:.2f}")
-    
-    if __name__ == "__main__":
-     main()
-    
+    lado = float(input("Lado del Rectangulo: "))
+    ancho = float(input("Ancho del Rectangulo: "))
+    perimetro = perimetro_rectangulo(lado, ancho)
+    area = area_rectangulo(lado, ancho)
+    print(f"El perimetro del rectángulo es : {perimetro:.2f}")
+    print(f"El area del rectángulo es: {area:.2f}")
+
+if __name__ == "__main__":
+    main()
