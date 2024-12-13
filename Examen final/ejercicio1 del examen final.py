@@ -32,7 +32,7 @@ print(f"Tamaño de la lista de impares: {len(impares)}")
 print(f"Tamaño de la lista de múltiplos de 3: {len(multiplos_de_3)}")
 
 # Mostrar el contenido de las listas
-print(f"\nContenido de la lista original: {lista}")
+print(f"\nContenido de la lista original: {lista}") 
 print(f"Contenido de la lista de pares: {pares}")
 print(f"Contenido de la lista de impares: {impares}")
 print(f"Contenido de la lista de múltiplos de 3: {multiplos_de_3}")
